@@ -7,10 +7,38 @@ body {
   color: #fafaf5;
 }
 
-.centre {
+
+
+.full-centre {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#game-container {
+  width: 600px;
+  max-width: 100%;
+  padding: 1rem;
+  background-color: #111;
+  border: 2px solid #0f0;
+}
+
+#console-output {
+  height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#console-input {
+  align: center;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #000;
+  color: #0f0;
+  border: 1px solid #0f0;
+  font-family: monospace;
 }
 
 #headroon {
